@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Login</string>
+    <string name="Subtitle">Please sign in to continue.</string>
+    <string name="Email">E-mail</string>
+    <string name="Password">Password</string>
+    <string name="ButtonText">SIGN IN</string>
+    <string name="TextAccount">Don\'t have a account?</string>
+    <string name="SignUp">Sign up</string>
+</resources>
