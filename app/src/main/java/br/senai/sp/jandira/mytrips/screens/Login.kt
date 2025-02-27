@@ -17,6 +17,7 @@ import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.Icon
+import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextField
 import androidx.compose.material3.TextFieldDefaults
@@ -92,9 +93,8 @@ fun Login() {
 
                 }
                 Column {
-                    TextField (
+                    OutlinedTextField (
                         modifier = Modifier
-                            .background(Color.LightGray, shape = RoundedCornerShape(12.dp))
                             .fillMaxWidth(),
                         value = "",
                         onValueChange = {},
@@ -113,7 +113,7 @@ fun Login() {
                             )
                         }
                     )
-                    TextField (
+                    OutlinedTextField (
                         modifier = Modifier
                             .padding(
                                 top = 8.dp
